@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding:0;
+ }
+
+.container{
+background:url(dark\ 1.jpg);
+height: 100vh;
+background-size:100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height:80px;
+    background-color:grey;
+    
+}
+ .navbar .logo {
+    display:inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    user-select: none;
+ }
+ .navbar .logo a{
+    text-decoration:none;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 255, 255);
+    user-select: none;
+    
+ }
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+   
+.navbar ul li{
+
+    list-style: none;
+    display:inline-block;
+    margin: 0 8px;
+    line-height:80px ;
+    user-select: none;
+}
+    .navbar ul li a{
+        color:white;
+        text-decoration:none;
+        font-size: 20px;
+        padding: 6px 13px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        user-select: none;
+    }
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+        background: #ff6e00;
+        border-radius: 2px;
+        transition: .5s;
+
+    }
+    .container .center{
+        position: absolute;
+        top:50%;
+        left: 50%;transform:translate(-170% ,-390%);
+        color: white;
+        user-select:none;
+    }
+    
+      .rounded-social-buttons {
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        margin: 450px ;
+      }
+      
+      .social-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;;
+        padding: 15px 15px;
+        border-radius: 50%;
+        background-color: #fff;
+        color: #333;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        width: 45px;
+        height: 40px;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+      
+      .social-button:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      }
+      
+      /* Instagram button styles */
+      .instagram {
+        background-color: #fff;
+        color: #fff;
+      }
+      
+      .instagram:hover {
+        background-color: #ff69b4;
+        color: #fff;
+      }
+      
+      .instagram i {
+        font-size: 28px;
+        color: #ff69b4;
+      }
+      
+      /* Twitter button styles */
+      .twitter {
+        background-color: #fff;
+        color: #fff;
+      }
+      
+      .twitter:hover {
+        background-color: #1da1f2;
+        color: #fff;
+      }
+      
+      .twitter i {
+        font-size: 28px;
+        color: #1da1f2;
+      }
+      
+      /* Facebook button styles */
+      .facebook {
+        background-color: #fff;
+        color: #fff;
+      }
+      
+      .facebook:hover {
+        background-color: #3b5998;
+        color: #fff;
+      }
+      
+      .facebook i {
+        font-size: 28px;
+        color: #3b5998;
+      }
+      
+      /* GitHub button styles */
+      .github {
+        background-color: #fff;
+        color: #fff;
+      }
+      
+      .github:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      
+      .github i {
+        font-size: 28px;
+        color: #333;
+      }
+
+      

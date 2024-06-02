@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+ }
+
+ .container{
+    background:url(dark3.jpg);
+    height: 100vh;
+    background-size:100% 100%;
+
+ }
+ .container .logo li{
+    display:inline-flex;
+    width: 100px;
+    margin: 15px;
+   
+    
+ }
+
+ .container table{
+
+   color: white;
+   font-size: 35px;
+   margin: 200px;
+   margin-top: 50px;
+  
+ }
+
+ button{
+   background:white;
+   color:white;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: .6s;
+   font-size: medium;
+   margin-left: 25px;
+   
+}
+
+button:hover{
+   background: transparent;
+   border: 2px solid white;
+   cursor: pointer;
+
+}
+
+
